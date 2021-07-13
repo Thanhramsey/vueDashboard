@@ -6,7 +6,7 @@
     :right="$vuetify.rtl"
     :src="drawerImage ? image : ''"
     :mini-variant.sync="mini"
-    mini-variant-width="80"
+    mini-variant-width="100"
     app
     width="260"
   >
@@ -26,10 +26,10 @@
 
       <v-divider class="mx-3 mb-2" />
 
-      <default-list :items="items" />
+      <default-list :items="menuItems" />
     </div>
-
-    <template #append>
+	<!-- 13/0/2021 Remove unuse code -->
+    <!-- <template #append>
       <div class="pa-4 text-center">
         <app-btn
           class="text-none mb-4"
@@ -54,9 +54,9 @@
           Upgrade to Pro
         </app-btn>
       </div>
-    </template>
+    </template> -->
 
-    <div class="pt-12" />
+    <!-- <div class="pt-12" /> -->
   </v-navigation-drawer>
 </template>
 
@@ -85,7 +85,7 @@
         'image',
       ]),
       ...get('app', [
-        'items',
+        'menuItems',
         'version',
       ]),
       ...sync('app', [

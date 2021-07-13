@@ -126,8 +126,8 @@
           </v-row>
 
           <v-divider class="my-4 secondary" />
-
-          <v-row
+		  <!-- 13/0/2021 Remove unuse feature -->
+          <!-- <!-- <v-row
             align="center"
             no-gutters
           >
@@ -229,7 +229,7 @@
           >
             <v-icon>mdi-facebook</v-icon>
             - 50
-          </v-btn>
+          </v-btn> -->
         </v-card-text>
       </v-card>
     </v-menu>

@@ -12,7 +12,7 @@
     name: 'App',
     metaInfo: {
       title: 'App',
-      titleTemplate: '%s | Material Dashboard Free',
+      titleTemplate: 'ứng dụng quản lý thu phí môi trường',
       htmlAttrs: { lang: 'en' },
       meta: [
         { charset: 'utf-8' },

@@ -17,14 +17,13 @@
 
     <default-drawer-toggle class="hidden-sm-and-down" />
 
-    <v-toolbar-title
+    <!-- <v-toolbar-title
       class="font-weight-light text-h5"
-      v-text="name"
-    />
+    >Pikachu</v-toolbar-title> -->
 
     <v-spacer />
 
-    <default-search class="hidden-sm-and-down" />
+    <!-- <default-search class="hidden-sm-and-down" /> -->
 
     <default-go-home />
 
@@ -73,3 +72,9 @@
     },
   }
 </script>
+<style style="scss">
+.v-bar--underline
+   .v-toolbar__content{
+   	background-color: #0066b3 !important
+   }
+</style>
